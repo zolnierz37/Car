@@ -1,0 +1,507 @@
+@charset "UTF-8";
+body
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #fff;
+	background-size: cover;
+	font-family: sans-serif;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center; 
+}
+.login-logo
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+h2
+{
+	margin-top: 50;
+	padding: 0 0 20px;
+	color: #33cccc;
+	font-size: 18px;
+	text-align: center;
+}
+h3
+{
+	margin-top: 50;
+	padding: 0 0 20px;
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
+}
+.login-form
+{
+	margin-top: 80px;
+}
+.login-container
+{
+	position: absolute;
+	top: 48%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: 370px;
+	background: rgba(0,0,0,.5);
+	border-radius: 15px;
+	text-align: center;
+}
+input[type="text"], input[type="password"], select
+{
+	outline: none;
+	width: 240px;
+	height: 35px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	border: 1px solid #000;
+	padding-left: 40px;
+}
+.zaloguj
+{
+	padding: 15px 98px;
+	background: #33cccc;
+	color: #fff;
+	border: none;
+	margin-bottom: 20px;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 14px;
+}
+.rem-pass-text
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+.cust
+{
+	position: absolute;
+	background: #fff;
+	margin-left: 1px;
+	margin-top: 1.5px;
+	width: 34px;
+	height: 26px;
+	padding-top: 0.1px;
+	border: 1px solid #fff;
+}
+.logo-bar
+{
+	background: #0d0d0d;
+}
+.logo-bar-in
+{
+	background: #0d0d0d;
+	width: 50%; 
+	margin: 0 auto; 
+	height: 100px;
+}
+.navigation-bar
+{
+	background: #33cccc;
+}
+.navigation-bar-in
+{
+	background: #33cccc;
+	width: 65%;
+	margin: 0 auto;
+	height: 40px;
+}
+.nav-text
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 17px;
+}
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li
+{
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+}
+ul li:hover
+{
+	background: #2eb8b8;
+}
+.nav-left
+{
+	float: left;
+}
+.nav-right
+{
+	float: right;
+}
+.footer
+{
+	position: absolute;
+ 	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background: #0d0d0d;
+}
+.footer-in
+{
+	background: #0d0d0d;
+	width: 50%;
+	margin: 0 auto;
+	height: 30px;
+}
+p
+{
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	cursor: default;
+}
+.footer-login
+{
+	position: absolute;
+ 	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background: rgba(0,0,0,.5);
+}
+.footer-login-in
+{
+	width: 50%;
+	margin: 0 auto;
+	height: 30px;
+}
+.content
+{
+	background: transparent;
+	margin-top: 10px;
+}
+.content-in-up
+{
+	background: #fff;
+	width: 63.5%;
+	margin: 0 auto;
+	height: 80px;
+}
+.content-in-down
+{
+	background: #fff;
+	width: 62%;
+	margin: 0 auto;
+	height: 340px;
+	border-style: none;
+    border-width: 1px;
+    padding: 10px;
+}
+.content-in-down-table
+{
+	background: #fff;
+	width: 62%;
+	margin: 0 auto;
+	height: 340px;
+	border-style: none;
+    border-width: 1px;
+    padding: 10px;
+    text-align: center;
+}
+.content-in-down-in-data
+{
+	margin-left: 8px;
+}
+.content-in-down-in-chose
+{
+	margin-left: 305px;
+}
+.content-tittle
+{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	cursor: default;
+	margin-top: 30px;
+}
+hr
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.content-in-down-in-left
+{
+	float: left;
+	width: 40%;
+}
+.content-in-down-in-left label
+{
+	font-size: 25px;
+	display: block;
+	
+}
+.content-in-down-in-right
+{
+	float: left;
+	width: 50%;
+}
+.content-in-down-in-right label
+{
+	font-size: 25px;
+	display: block;
+	
+}
+.label-1
+{
+	margin-top: 1px;
+}
+.label-2
+{
+	margin-top: 20px;
+}
+.label-3
+{
+	margin-top: 20px;
+	visibility:hidden;
+}
+.content-in-down-in-right input, select
+{
+	height: 29px;
+}
+.edytuj
+{
+	width: 100;
+    height: 45;
+	background: #33cccc;
+	color: #fff;
+	border: none;
+	float: left;
+	margin-top: 21px;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 14px;
+}
+.zapisz 
+{
+	width: 100;
+    height: 45;
+	background: #33cccc;
+	color: #fff;
+	border: none;
+	float: left;
+	margin-top: 21px;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 14px;
+}
+.cofnij
+{
+	width: 100;
+    height: 45;
+	background: #ff5c33;
+	color: #fff;
+	border: none;
+	float: right;
+	margin-top: 21px;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 14px;
+}
+.dodaj1
+{
+	width: 100;
+    height: 45;
+	background: #33cccc;
+	color: #fff;
+	border: none;
+	float: right;
+	margin-top: -55px;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 14px;
+}
+.dodaj2
+{
+	width: 100;
+    height: 45;
+	background: #33cccc;
+	color: #fff;
+	border: none;
+	float: left;
+	margin-top: 21px;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 14px;
+}
+.data
+{
+	width: 100;
+    height: 45;
+	background: #33cccc;
+	color: #fff;
+	border: none;
+	margin: 2px;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 14px;
+	float: left;
+}
+.tabela-kursanci
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 auto;
+	text-align: left;
+}
+.tabela-kursanci td
+{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+	cursor: default;
+}
+.tabela-kursanci th
+{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+	text-align: center;
+	cursor: default;
+}
+.tabela-kursanci .wartosci
+{
+	font-size: 14px;
+}
+.tabela-kursanci .wartosci form
+{
+	display: inline;
+}
+.tabela-kursanci .opisy
+{
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Tahoma, Geneva, sans-serif !important;
+	color: #000000;
+	vertical-align: top;
+}
+.btn-edytuj
+{
+	height: 20px;
+	width: 50px;
+	color: #fff;
+	background: #33cccc;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+	margin-right: 5px;
+}
+.btn-usun
+{
+	height: 20px;
+	width: 50px;
+	color: #fff;
+	background: #ff5c33;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+}
+.btn-akceptuj
+{
+	height: 20px;
+	width: 70px;
+	color: #fff;
+	background: #33cccc;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+}
+.btn-sms
+{
+	height: 20px;
+	width: 50px;
+	color: #fff;
+	background: #aa80ff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+	margin-left: 5px;
+}
+.btn-pdf
+{
+	height: 20px;
+	width: 50px;
+	color: #fff;
+	background: #80ff80;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+	margin-left: 5px;
+}
+.btn-arch
+{
+	height: 20px;
+	width: 55px;
+	color: #fff;
+	background: #cc8800;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+	margin-left: 5px;
+}
+.chose
+{
+	width: 150;
+    height: 55;
+	background: #33cccc;
+	color: #fff;
+	border: none;
+	float: left;
+	margin-top: 21px;
+	margin-right: 30px;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 20px;
+}
+.tracking
+{
+	width: 350;
+    height: 100;
+	background: #33cccc;
+	color: #fff;
+	border: none;
+	float: left;
+	margin-top: 21px;
+	margin-left: 300px;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 20px;
+	
+}
+.map
+{
+	height:350px;
+	width:550px;
+	margin-left: 17%;
+}
