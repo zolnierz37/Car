@@ -75,8 +75,8 @@
 							<option value="Praktyka">Praktyka</option>
 						</select>
 						<input type="text" name="lesson_name">
-						<input type="text" name="hour_start">
-						<input type="text" name="hour_end">
+						<input type="time" name="hour_start">
+						<input type="time" name="hour_end">
 						<select name="student">
 							<option value=""></option>
 							<%  
@@ -98,7 +98,7 @@
 		</div>
 		<div class="footer">
 			<div class="footer-in">
-				<p>Created by Maciej Tomczak Copyright © 2017</p>
+				<p>Created by Maciej Tomczak Copyright © 2018</p>
 			</div>
 		</div>
 	</div>

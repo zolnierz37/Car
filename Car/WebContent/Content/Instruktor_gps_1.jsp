@@ -26,7 +26,7 @@
 		statement = connection.createStatement();
 		String sql = "SELECT * FROM GPS WHERE USER_ID = '{\"success\":\" Witaj "+student+"\"}' ";
 		resultSet = statement.executeQuery(sql);
-		while(resultSet.next())
+		if(resultSet.next())
 		{
 	%>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -47,6 +47,26 @@
 			var marker = new google.maps.Marker({
 				position: location,
 				map: map
+			});
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<%
+		} else {
+	%>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Szkoła Jazdy</title>
+	<link rel="stylesheet" href="style.css?v=<%= java.lang.Math.random() %>">
+	
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIbun_-LUh9bf2T2lWbeoC8UQ4mqqZjbM&callback=initialize"></script>
+	<script>
+		var map;
+		
+		function initialize() {
+			var location = new google.maps.LatLng(10,10);
+			var map = new google.maps.Map(document.getElementById("map"), {
+			zoom: 1,
+			center: location
 			});
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);
@@ -91,7 +111,7 @@
 		</div>
 		<div class="footer">
 			<div class="footer-in">
-				<p>Created by Maciej Tomczak Copyright © 2017</p>
+				<p>Created by Maciej Tomczak Copyright © 2018</p>
 			</div>
 		</div>
 	</div>

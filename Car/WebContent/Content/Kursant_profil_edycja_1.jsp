@@ -68,7 +68,7 @@
 						<input type="text" name="name" value="<%=resultSet.getString("NAME")%>">
 						<input type="text" name="email" value="<%=resultSet.getString("EMAIL")%>">
 						<input type="password" name="password" value="<%=resultSet.getString("PASSWORD")%>">
-						<input type="text" name="phone_number" value="<%=resultSet.getString("PHONE_NUMBER")%>">
+						<input type="number" name="phone_number" value="<%=resultSet.getString("PHONE_NUMBER")%>">
 						<input type="text" name="address" value="<%=resultSet.getString("ADDRESS")%>">
 					</div>
 					<input type="submit" name="edit" class="edytuj" value="Zapisz">
@@ -80,7 +80,7 @@
 		</div>
 		<div class="footer">
 			<div class="footer-in">
-				<p>Created by Maciej Tomczak Copyright © 2017</p>
+				<p>Created by Maciej Tomczak Copyright © 2018</p>
 			</div>
 		</div>
 	</div>

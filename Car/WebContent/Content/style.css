@@ -53,7 +53,7 @@ h3
 	border-radius: 15px;
 	text-align: center;
 }
-input[type="text"], input[type="password"], select
+input[type="text"], input[type="password"], input[type="time"], select
 {
 	outline: none;
 	width: 240px;
@@ -62,6 +62,22 @@ input[type="text"], input[type="password"], select
 	font-size: 14px;
 	border: 1px solid #000;
 	padding-left: 40px;
+}
+input[type="number"]
+{
+	outline: none;
+	width: 240px;
+	height: 35px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	border: 1px solid #000;
+	padding-left: 40px;
+	-moz-appearance:textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 .zaloguj
 {
@@ -503,5 +519,5 @@ hr
 {
 	height:350px;
 	width:550px;
-	margin-left: 17%;
+	margin-left: 20.5%;
 }

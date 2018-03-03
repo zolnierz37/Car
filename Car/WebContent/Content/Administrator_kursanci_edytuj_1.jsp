@@ -8,7 +8,7 @@
 %>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Szkoła Jazdy</title>
 	<link rel="stylesheet" href="style.css?v=<%= java.lang.Math.random() %>">
 </head>
@@ -67,7 +67,7 @@
 						<input type="text" name="name" value="<%=name%>">
 						<input type="text" name="email" value="<%=email%>">
 						<input type="text" name="password" value="<%=password%>">
-						<input type="text" name="phone_number" value="<%=phone_number%>">
+						<input type="number" name="phone_number" value="<%=phone_number%>">
 						<input type="text" name="address" value="<%=address%>">
 					</div>
 					<input type="submit" name="edit" class="zapisz" value="Zapisz">
@@ -79,7 +79,7 @@
 		</div>
 		<div class="footer">
 			<div class="footer-in">
-				<p>Created by Maciej Tomczak Copyright © 2017</p>
+				<p>Created by Maciej Tomczak Copyright © 2018</p>
 			</div>
 		</div>
 	</div>

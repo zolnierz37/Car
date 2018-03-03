@@ -53,6 +53,6 @@
 		}
 		rd.close();
 		response.sendRedirect("Instruktor_lekcje_0.jsp");
-		%>			
+	%>			
 </body>
 </html>

@@ -53,7 +53,7 @@
 						<input type="text" name="name" value="">
 						<input type="text" name="email" value="">
 						<input type="text" name="password" value="">
-						<input type="text" name="phone_number" value="">
+						<input type="number" name="phone_number" value="">
 						<input type="text" name="address" value="">
 					</div>
 					<input type="submit" name="edit" class="zapisz" value="Zapisz">
@@ -65,7 +65,7 @@
 		</div>
 		<div class="footer">
 			<div class="footer-in">
-				<p>Created by Maciej Tomczak Copyright © 2017</p>
+				<p>Created by Maciej Tomczak Copyright © 2018</p>
 			</div>
 		</div>
 	</div>

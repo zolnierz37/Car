@@ -63,8 +63,8 @@
 							<option value="<%=lesson_type%>"><%=lesson_type%></option>
 						</select>
 						<input type="text" name="lesson_name" value="<%=lesson_name%>">
-						<input type="text" name="hour_start" value="<%=hour_start%>">
-						<input type="text" name="hour_end" value="<%=hour_end%>">
+						<input type="time" name="hour_start" value="<%=hour_start%>">
+						<input type="time" name="hour_end" value="<%=hour_end%>">
 						<select name="student">
 							<option value=""><%=user_name%></option>
 						</select>
@@ -78,7 +78,7 @@
 		</div>
 		<div class="footer">
 			<div class="footer-in">
-				<p>Created by Maciej Tomczak Copyright © 2017</p>
+				<p>Created by Maciej Tomczak Copyright © 2018</p>
 			</div>
 		</div>
 	</div>

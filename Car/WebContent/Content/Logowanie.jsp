@@ -17,13 +17,12 @@
 				<i class="fa fa-lock fa-2x cust" aria-hidden="true"></i>
 				<input type="password" name="password" value="" placeholder="Podaj hasło"><br/>
 				<input type="submit" name="submit" class="zaloguj" value="Zaloguj"><br/>
-				<%/*%><a href="" class="rem-pass-text">Nie pamiętasz hasła?</a><%*/%>
 			</div>
 		</form>
 	</div>
 	<div class="footer-login">
 		<div class="footer-login-in">
-			<p>Created by Maciej Tomczak Copyright © 2017</p>
+			<p>Created by Maciej Tomczak Copyright © 2018</p>
 		</div>
 	</div>
 </body>
